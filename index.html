@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kartik portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./src/output.css">
+    <link rel="icon" type="image/png" href="images/ks-logo.png">
+
+</head>
+
+<body class="bg-black">
+    <!-- header start -->
+    <header class="header">
+        <!-- navbar start -->
+        <nav class="navbar bg-white text-black flex justify-between items-center px-12 h-16 w-screen">
+            <a href="index.html" class="text-2xl font-bold text-violet-600 whitespace-nowrap">Kartik's Portfolio</a>
+
+            <div
+                class="dropdown-menu nav-links absolute -top-full left-0 w-full max-lg:bg-white text-black flex flex-col items-center text-lg font-bold py-2 gap-8 lg:static lg:flex-row lg:justify-end">
+                <ul class="nav-items flex flex-col items-center gap-6 lg:flex-row lg:gap-8">
+                    <li><a href="index.html" class="text-violet-600 border-b-2 pb-2">Home</a></li>
+                    <li><a href="about.html" class="hover:text-violet-600 hover:border-b-2 pb-2">About</a></li>
+                    <li><a href="project.html" class="hover:text-violet-600 hover:border-b-2 pb-2">Projects</a></li>
+                    <li><a href="contact.html" class="hover:text-violet-600 hover:border-b-2 pb-2">Contact</a></li>
+                </ul>
+                <div class="resume-btn">
+                    <button class="bg-violet-600 border-violet-600 text-white rounded-sm px-3 py-1 hover:bg-violet-800">
+                        <a href="#">Resume</a>
+                    </button>
+                </div>
+            </div>
+            <div class="bar-icon toggle-btn lg:hidden">
+                <i class="fa-solid fa-bars fa-xl"></i>
+            </div>
+        </nav>
+        <!-- navbar end -->
+
+    </header>
+    <!-- header end -->
+
+    <!-- hero section start -->
+    <section class="text-white body-font">
+        <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+            <div
+                class=" md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+                <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-violet-600">Hello, I'm
+                    <br class="hidden lg:inline-block">Kartik Saraswat
+                </h1>
+                <p class="mb-8 leading-relaxed">I’m a budding front-end developer passionate about
+                    creating clean, modern, and responsive web designs. I love turning ideas into neat, user-friendly
+                    interfaces using HTML, CSS, Bootstrap, and Tailwind, while steadily growing my skills in JavaScript.
+                    I believe in learning by doing and continuously improving with every new project I build.</p>
+                <div class="flex justify-center">
+                    <button
+                        class="inline-flex text-white bg-violet-600 border-0 py-2 px-6 focus:outline-none hover:bg-white hover:text-violet-600 rounded text-lg font-semibold"><a
+                            href="tel:+918527606714">Say Hello!</a></button>
+
+                </div>
+            </div>
+            <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+                <img class="object-cover object-center rounded" alt="hero"
+                    src="https://img.freepik.com/free-vector/laptop-with-program-code-isometric-icon-software-development-programming-applications-dark-neon_39422-971.jpg?semt=ais_hybrid&w=740&q=80">
+            </div>
+        </div>
+    </section>
+    <!-- hero section end -->
+
+    <!-- About section start -->
+    <section class="text-white body-font">
+        <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+            <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
+                <img class="object-cover object-center rounded" alt="hero"
+                    src="https://img.freepik.com/premium-vector/vector-man-coding-computer_1058698-1376.jpg?semt=ais_hybrid&w=740&q=80">
+            </div>
+            <div class=" md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
+                <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-violet-600">Hi, I'm Kartik Saraswat
+                    <br class="hidden lg:inline-block">Frontend Developer
+                </h1>
+                <p class="mb-8 leading-relaxed">I specialize in creating clean, responsive, and visually appealing web
+                    interfaces using HTML, CSS, Bootstrap, and Tailwind. With a growing command over JavaScript, I focus
+                    on building user-friendly designs that balance simplicity and functionality. I enjoy working on
+                    layouts, animations, and modern UI elements that enhance the overall user experience. As a learner
+                    who constantly experiments and improves, I aim to turn ideas into smooth, polished front-end designs
+                    that look great on every device.</p>
+                <div class="flex justify-center">
+                    <button
+                        class="inline-flex text-white bg-violet-600 border-0 py-2 px-6 focus:outline-none hover:bg-white hover:text-violet-600 rounded text-lg font-semibold"><a
+                            href="#">My Projects</a></button>
+                    <button
+                        class="ml-4 inline-flex text-violet-600 bg-white border-0 py-2 px-6 focus:outline-none hover:bg-violet-600 rounded hover:text-white text-lg font-semibold"><a
+                            href="#">Download CV</a></button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About section end -->
+
+    <!-- footer start -->
+    <footer class="footer bg-white w-screen py-2">
+        <div
+            class="container grid grid-cols-1 px-5 md:px-5 lg:px-20  sm:gap-10 md:grid md:grid-cols-2 lg:grid lg:grid-cols-3 pb-5">
+            <div class="content">
+                <h2 class="text-3xl font-bold text-violet-600 my-4">Kartik's Portfolio</h2>
+                <p class="text-lg py-2 font-medium">Thank you for visiting my personal portfolio website. Connect with me over
+                    socials.</p>
+                <p class="text-lg py-2 font-medium">Keep Rising 🚀. Connect with me over live chat!</p>
+            </div>
+            <div class="quick-links">
+                <h3 class="text-3xl font-bold text-violet-600 my-4">Quick Links</h3>
+                <ul class="f-links">
+                    <li class="ql-items text-xl font-semibold py-1"><a href="index.html"
+                            class=" hover:text-violet-600">Home</a>
+                    </li>
+                    <li class="ql-items text-xl font-semibold py-1"><a href="about.html"
+                            class=" hover:text-violet-600">About</a>
+                    </li>
+                    <li class="ql-items text-xl font-semibold py-1"><a href="project.html"
+                            class=" hover:text-violet-600">Projects</a></li>
+                    <li class="ql-items text-xl font-semibold py-1"><a href="contact.html"
+                            class=" hover:text-violet-600">Contact</a></li>
+                </ul>
+            </div>
+            <div class="contact-info">
+                <h3 class="text-3xl font-bold text-violet-600 my-4">Contact Info</h3>
+                <div class="contact-no text-xl font-semibold flex items-baseline justify-start gap-3 py-1">
+                    <i class="fa-solid fa-phone"></i>
+                    <a href="tel:+918527606714">+91 85276 06714</a>
+                </div>
+                <div class="email text-xl font-semibold flex items-baseline justify-start gap-3 py-1">
+                    <i class="fa-solid fa-envelope"></i>
+                    <a href="mailto:kartiksaraswat882003@gmail.com">kartiksaraswat882003@gmail.com</a>
+                </div>
+                <div class="address text-xl font-semibold flex items-baseline justify-start gap-3 py-1">
+                    <i class="fa-solid fa-map-location-dot"></i>
+                    Ghaziabad, Uttar Pradesh, India - 201102
+                </div>
+                <div class="social-icons flex justify-start items-center gap-4 mt-4">
+                    <div class="linkedin  text-2xl text-white p-2 rounded-full bg-black hover:text-violet-600">
+                        <a href="https://www.linkedin.com/in/kartik-saraswat-283b73373/" target="_blank"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <div class="github text-2xl text-white p-2 rounded-full bg-black hover:text-violet-600">
+                        <a href="https://github.com/saraswatkartik" target="_blank"><i
+                                class="fa-brands fa-github"></i></a>
+                    </div>
+                    <div class="instagram text-2xl text-white p-2 rounded-full bg-black hover:text-violet-600">
+                        <a href="https://instagram.com/_kartik_saraswat_/" target="_blank"><i
+                                class="fa-brands fa-instagram"></i></a>
+                    </div>
+                    <div class="mail text-2xl text-white p-2 rounded-full bg-black hover:text-violet-600">
+                        <a href="mailto:kartiksaraswat882003@gmail.com" target="_blank"><i class="fa-regular fa-envelope"></i></a>
+                    </div>
+                    <div class="mail text-2xl text-white p-2 rounded-full bg-black hover:text-violet-600">
+                        <a href="mailto:kartiksaraswat882003@gmail.com" target="_blank"><i
+                                class="fa-brands fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr class="border-black mx-20">
+        <div class="text-center text-base font-semibold py-4">
+            <p>Designed by <a class="text-violet-600 hover:text-violet-800"
+                    href="https://instagram.com/_kartik_saraswat_/" target="_blank">Kartik Saraswat</a></p>
+    </footer>
+    <!-- footer end -->
+
+    <!-- js file -->
+    <script src="main.js"></script>
+</body>
+
+</html>
