@@ -14,11 +14,11 @@
 
 </head>
 
-<body class="bg-black">
+<body class="">
     <!-- header start -->
     <header class="header">
         <!-- navbar start -->
-        <nav class="navbar bg-white text-black flex justify-between items-center px-12 h-16 w-full">
+        <nav class="navbar bg-gray-200 text-black flex justify-between items-center px-12 h-16 w-full">
             <a href="index.html" class="text-2xl font-bold text-violet-600 whitespace-nowrap">Kartik's Portfolio</a>
 
             <div
@@ -45,11 +45,11 @@
     <!-- header end -->
 
     <!-- hero section start -->
-    <section class="text-white body-font px-12">
+    <section class="text-white body-font px-12 bg-gray-900">
         <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
             <div
                 class=" md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-                <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-violet-600">Hello, I'm
+                <h1 class="title-font sm:text-4xl text-3xl mb-4 font-bold text-violet-600">Hello, I'm
                     <br class="hidden lg:inline-block"><span id="type-name"></span>
                 </h1>
                 <!-- <h1 class="text-white">I am <span id="element"></span></h1> -->
@@ -77,14 +77,14 @@
     <!-- hero section end -->
 
     <!-- About section start -->
-    <section class="text-white body-font px-12">
+    <section class="text-black body-font px-12 bg-gray-200">
         <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
             <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
                 <img class="object-cover object-center rounded" alt="hero"
                     src="https://img.freepik.com/premium-vector/vector-man-coding-computer_1058698-1376.jpg?semt=ais_hybrid&w=740&q=80">
             </div>
             <div class=" md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
-                <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-violet-600">Hi, I'm Kartik Saraswat
+                <h1 class="title-font sm:text-4xl text-3xl mb-4 font-bold text-violet-600">Hi, I'm Kartik Saraswat
                     <br class="hidden lg:inline-block">Frontend Developer
                 </h1>
                 <p class="mb-8 leading-relaxed">I specialize in creating clean, responsive, and visually appealing web
@@ -95,10 +95,10 @@
                     that look great on every device.</p>
                 <div class="flex justify-center">
                     <button
-                        class="inline-flex text-white bg-violet-600 border-0 py-2 px-6 focus:outline-none hover:bg-white hover:text-violet-600 rounded text-lg font-semibold"><a
+                        class="inline-flex text-white bg-violet-600 py-2 px-6 focus:outline-none hover:bg-white hover:text-violet-600 rounded-md text-lg font-semibold border-2"><a
                             href="#">My Projects</a></button>
                     <button
-                        class="ml-4 inline-flex text-violet-600 bg-white border-0 py-2 px-6 focus:outline-none hover:bg-violet-600 rounded hover:text-white text-lg font-semibold"><a
+                        class="ml-4 inline-flex text-violet-600 py-2 px-6 focus:outline-none hover:bg-violet-600 rounded-md hover:text-white text-lg font-semibold border-2"><a
                             href="#">Download CV</a></button>
                 </div>
             </div>
@@ -106,8 +106,86 @@
     </section>
     <!-- About section end -->
 
+    <!-- skill section begin -->
+    <section class="skill-sec bg-gray-900 p-20">
+        <div class="container px-10">
+            <h3 class="text-white text-center mb-20 text-5xl font-bold">My Skills <i class="fa-solid fa-laptop-code text-violet-600"></i></h3>
+            <div class="s-cards grid grid-cols-3 gap-10">
+                <!-- card1 -->
+                <div
+                    class="skill-card1 bg-white w-[300px] h-[300px] p-12 rounded-lg flex flex-col justify-center items-center hover:scale-105 transition-all duration-300 hover:shadow-md  hover:shadow-violet-600 border-0">
+                    <div class="img-wrapper h-[180px] w-[180px] mb-6">
+                        <img src="images/html-icon.png" alt="html icon"
+                            class="h-full w-full object-contain">
+                    </div>
+                    <p class="font-bold text-3xl text-gray-800">HTML</p>
+                </div>
+
+                <!-- card2 -->
+                <div
+                    class="skill-card2 bg-white w-[300px] h-[300px] p-12 rounded-lg flex flex-col justify-center items-center hover:scale-105 transition-all duration-300 hover:shadow-md  hover:shadow-violet-600 border-0">
+                    <div class="img-wrapper h-[180px] w-[180px] mb-6">
+                        <img src="images/css-icon.png" alt=""
+                            class="h-full w-full object-contain">
+                    </div>
+                    <p class="font-bold text-3xl text-gray-800">CSS</p>
+                </div>
+
+                <!-- card3 -->
+                <div
+                    class="skill-card3 bg-white w-[300px] h-[300px] p-12 rounded-lg flex flex-col justify-center items-center hover:scale-105 transition-all duration-300 hover:shadow-md  hover:shadow-violet-600 border-0">
+                    <div class="img-wrapper h-[180px] w-[180px] mb-6">
+                        <img src="images/js-icon.webp" alt=""
+                            class="h-full w-full object-contain">
+                    </div>
+                    <p class="font-bold text-3xl text-gray-800">JAVA SCRIPT</p>
+                </div>
+
+                <!-- card4 -->
+                <div
+                    class="skill-card4 bg-white w-[300px] h-[300px] p-12 rounded-lg flex flex-col justify-center items-center hover:scale-105 transition-all duration-300 hover:shadow-md  hover:shadow-violet-600 border-0">
+                    <div class="img-wrapper h-[180px] w-[180px] mb-6">
+                        <img src="images/bootstap-icon.png" alt=""
+                            class="h-full w-full object-contain">
+                    </div>
+                    <p class="font-bold text-3xl text-gray-800">BOOTSTRAP</p>
+                </div>
+
+                <!-- card5 -->
+                <div
+                    class="skill-card5 bg-white w-[300px] h-[300px] p-12 rounded-lg flex flex-col justify-center items-center hover:scale-105 transition-all duration-300 hover:shadow-md  hover:shadow-violet-600 border-0">
+                    <div class="img-wrapper h-[180px] w-[180px] mb-6">
+                        <img src="images/tailwind-icon.png" alt=""
+                            class="h-full w-full object-contain">
+                    </div>
+                    <p class="font-bold text-3xl text-gray-800">TAILWIND</p>
+                </div>
+
+                <!-- card6 -->
+                <div
+                    class="skill-card6 bg-white w-[300px] h-[300px] p-12 rounded-lg flex flex-col justify-center items-center hover:scale-105 transition-all duration-300 hover:shadow-md  hover:shadow-violet-600 border-0">
+                    <div class="img-wrapper h-[180px] w-[180px] mb-6">
+                        <img src="images/Wordpress_Blue_logo.png" alt=""
+                            class="h-full w-full object-contain">
+                    </div>
+                    <p class="font-bold text-3xl text-gray-800">WORDPRESS</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- skill section end -->
+
+    <!-- education section begin -->
+     <section class="education">
+        <div class="container">
+            
+        </div>
+     </section>
+     <!-- education section end -->
+
     <!-- footer start -->
-    <footer class="footer bg-white w-full py-2">
+    <footer class="footer bg-gray-200 w-full py-2">
         <div
             class="container grid grid-cols-1 px-5 md:px-5 lg:px-20  sm:gap-10 md:grid md:grid-cols-2 lg:grid lg:grid-cols-3 pb-5">
             <div class="content">
