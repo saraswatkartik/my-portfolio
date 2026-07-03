@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { Typewriter } from "react-simple-typewriter"
 import { Link } from "react-router-dom";
 import "./Hero.css";
-import heroImg from "../../../assets/images/Home/Hero-img3.png";
+import heroImg from "../../../assets/images/Home/hero-img3.png";
 import { FaDownload } from "react-icons/fa";
 
 const Hero = () => {
