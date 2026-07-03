@@ -1,0 +1,96 @@
+.edu-exp-section {
+    padding: 120px 20px;
+}
+
+.edu-exp-container {
+    max-width: 1280px;
+    margin: auto;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    gap: 50px;
+}
+
+.column-heading {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+    margin-bottom: 30px;
+}
+
+.column-heading svg {
+    color: #6366f1;
+    font-size: 1.8rem;
+}
+
+.column-heading h2 {
+    color: white;
+    font-size: 2rem;
+}
+
+.timeline-card {
+    background: rgba(255, 255, 255, .03);
+
+    border: 1px solid rgba(255, 255, 255, .08);
+
+    border-radius: 20px;
+
+    padding: 25px;
+
+    margin-bottom: 20px;
+
+    transition: .35s ease;
+}
+
+.timeline-card:hover {
+    transform: translateY(-8px);
+
+    border-color: rgba(99, 102, 241, .5);
+
+    box-shadow:
+        0 10px 30px rgba(99, 102, 241, .15);
+}
+
+.timeline-card h3 {
+    color: white;
+
+    margin-bottom: 10px;
+}
+
+.timeline-card span {
+    color: #6366f1;
+
+    display: block;
+
+    margin-bottom: 12px;
+}
+
+.timeline-card p {
+    color: #94a3b8;
+
+    line-height: 1.8;
+}
+
+/* Tablet */
+
+@media (max-width: 992px) {
+
+    .edu-exp-container {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Mobile */
+
+@media (max-width: 768px) {
+
+    .edu-exp-section {
+        padding: 80px 20px;
+    }
+
+    .column-heading h2 {
+        font-size: 1.7rem;
+    }
+}

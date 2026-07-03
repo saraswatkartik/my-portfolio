@@ -1,0 +1,172 @@
+.journey-section {
+    padding: 120px 20px;
+}
+
+.journey-container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.journey-heading {
+    text-align: center;
+    max-width: 700px;
+    margin: auto 0 80px;
+}
+
+.journey-heading span {
+    color: #6366f1;
+    font-weight: 600;
+}
+
+.journey-heading h2 {
+    color: white;
+    font-size: 3rem;
+    margin: 15px 0;
+}
+
+.journey-heading p {
+    color: #94a3b8;
+    line-height: 1.8;
+}
+
+/* Timeline */
+
+.timeline {
+    position: relative;
+}
+
+.timeline::before {
+    content: "";
+
+    position: absolute;
+
+    left: 50%;
+
+    top: 0;
+    bottom: 0;
+
+    width: 3px;
+
+    background: rgba(99, 102, 241, .3);
+
+    transform: translateX(-50%);
+}
+
+.timeline-item {
+    width: 50%;
+
+    padding: 20px 40px;
+
+    position: relative;
+}
+
+.timeline-item.left {
+    left: 0;
+}
+
+.timeline-item.right {
+    left: 50%;
+}
+
+.timeline-content {
+    background: rgba(255, 255, 255, .03);
+
+    border: 1px solid rgba(255, 255, 255, .08);
+
+    border-radius: 20px;
+
+    padding: 25px;
+
+    transition: .35s;
+}
+
+.timeline-content:hover {
+    transform: translateY(-8px);
+
+    border-color: rgba(99, 102, 241, .5);
+
+    box-shadow:
+        0 10px 30px rgba(99, 102, 241, .18);
+}
+
+.timeline-year {
+    display: inline-block;
+
+    margin-bottom: 12px;
+
+    color: #6366f1;
+
+    font-weight: 600;
+}
+
+.timeline-content h3 {
+    color: white;
+
+    margin-bottom: 12px;
+}
+
+.timeline-content p {
+    color: #94a3b8;
+
+    line-height: 1.8;
+}
+
+/* Dot */
+
+.timeline-item::before {
+    content: "";
+
+    position: absolute;
+
+    top: 35px;
+
+    width: 18px;
+    height: 18px;
+
+    border-radius: 50%;
+
+    background: #6366f1;
+
+    box-shadow:
+        0 0 20px rgba(99, 102, 241, .6);
+}
+
+.timeline-item.left::before {
+    right: -10px;
+}
+
+.timeline-item.right::before {
+    left: -8px;
+}
+
+/* Tablet & Mobile */
+
+@media (max-width: 992px) {
+
+    .timeline::before {
+        left: 15px;
+    }
+
+    .timeline-item {
+        width: 100%;
+        left: 0 !important;
+
+        padding-left: 50px;
+        padding-right: 0;
+    }
+
+    .timeline-item::before {
+        left: 7px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .journey-section {
+        padding: 80px 20px;
+    }
+
+    .journey-heading h2 {
+        font-size: 2rem;
+    }
+}

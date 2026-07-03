@@ -1,0 +1,48 @@
+.contact-hero {
+    padding: 150px 20px 100px;
+}
+
+.contact-hero-content {
+    max-width: 900px;
+    margin: auto;
+
+    text-align: center;
+}
+
+.contact-hero-content span {
+    color: #6366f1;
+    font-weight: 600;
+}
+
+.contact-hero-content h1 {
+    color: white;
+
+    font-size: 4rem;
+
+    margin: 20px 0;
+}
+
+.contact-hero-content h1 span {
+    color: #6366f1;
+}
+
+.contact-hero-content p {
+    color: #94a3b8;
+
+    line-height: 1.9;
+
+    max-width: 650px;
+
+    margin: auto;
+}
+
+@media (max-width: 768px) {
+
+    .contact-hero {
+        padding: 130px 20px 80px;
+    }
+
+    .contact-hero-content h1 {
+        font-size: 2.5rem;
+    }
+}
