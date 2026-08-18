@@ -5,7 +5,8 @@ import {
     FaNodeJs,
     FaGitAlt,
     FaGithub,
-    FaWordpress
+    FaWordpress,
+    FaBootstrap,
 } from "react-icons/fa";
 
 import {
@@ -41,12 +42,17 @@ const Skills = () => {
             color: "#38BDF8",
         },
         {
-            name: "HTML5",
+            name: "Bootstrap 5",
+            icon: <FaBootstrap />,
+            color: "#7952B3",
+        },
+        {
+            name: "HTML 5",
             icon: <SiHtml5 />,
             color: "#E34F26",
         },
         {
-            name: "CSS3",
+            name: "CSS 3",
             icon: <SiCss />,
             color: "#1572B6",
         },
