@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { FaDownload } from "react-icons/fa";
-import profileImg from "../../assets/images/Home/img-1.png";
+import profileImg from "../../assets/images/Home/img-1.";
 
 const ResumeHeader = () => {
     return (

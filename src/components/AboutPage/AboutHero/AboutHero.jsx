@@ -1,6 +1,6 @@
 import "./AboutHero.css";
 import { motion } from "framer-motion";
-import aboutHeroImg from "../../../assets/images/Home/img-2-enhanced.png";
+import aboutHeroImg from "../../../assets/images/Home/img-2-enhanced.PNG";
 
 const AboutHero = () => {
     return (
