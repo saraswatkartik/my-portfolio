@@ -117,15 +117,6 @@ const FeaturedProject = () => {
                             Live Demo
                         </a>
 
-                        <a
-                            href="#"
-                            target="_blank"
-                            rel="noreferrer"
-                        >
-                            <FaGithub />
-                            GitHub
-                        </a>
-
                     </div>
 
                 </motion.div>

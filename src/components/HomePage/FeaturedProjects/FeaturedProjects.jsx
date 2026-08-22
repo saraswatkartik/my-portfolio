@@ -12,7 +12,7 @@ import "./FeaturedProjects.css";
 // Images Import
 import templeImg from "../../../assets/images/projects/kalka-mandir.png";
 import salonImg from "../../../assets/images/projects/js-makeover.png";
-import portfolioImg from "../../../assets/images/projects/my-portfolio.png";
+import portfolioImg from "../../../assets/images/projects/kartik-portfolio.png";
 import EcommerceImg from "../../../assets/images/projects/masterkart.png";
 
 const FeaturedProjects = () => {
@@ -144,11 +144,6 @@ const FeaturedProjects = () => {
                             <a href="https://shrisaikalkamandir.vercel.app" target="_blank" rel="noopener noreferrer">
                                 <FaExternalLinkAlt />
                                 Live Demo
-                            </a>
-
-                            <a href="#">
-                                <FaGithub />
-                                GitHub
                             </a>
 
                         </div>

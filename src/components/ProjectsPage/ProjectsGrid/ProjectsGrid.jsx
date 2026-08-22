@@ -9,7 +9,7 @@ import "./ProjectsGrid.css";
 
 import templeImg from "../../../assets/images/projects/kalka-mandir.png";
 import salonImg from "../../../assets/images/projects/js-makeover.png";
-import portfolioImg from "../../../assets/images/projects/my-portfolio.png";
+import portfolioImg from "../../../assets/images/projects/kartik-portfolio.png";
 import EcommerceImg from "../../../assets/images/projects/masterkart.png";
 
 const projectsData = [
